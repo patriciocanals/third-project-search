@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multiple search</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">  
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+    <h1>Car finder</h1>
+
+    <div class="container2">
+
+        
+
+        <form id="search">
+            <div class="row">
+                <div class="three columns">
+                    <label for="brand">Brand</label>
+                    <select class="u-full-width" id="brand">
+                        <option value="">All</option>
+                        <option value="Audi">Audi</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Mercedes Benz">Mercedes Benz</option>
+                        <option value="Chevrolet">Chevrolet</option>
+                        <option value="Ford">Ford</option>
+                        <option value="Dodge">Dodge</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="year">Year</label>
+                    <select class="u-full-width" id="year">
+                        <option value="">All</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="minimum">Min value</label>
+                    <select class="u-full-width" id="minimum">
+                            <option value="">All</option>
+                            <option value="20000">20,000</option>
+                            <option value="30000">30,000</option>
+                            <option value="40000">40,000</option>
+                            <option value="50000">50,000</option>
+                            <option value="60000">60,000</option>
+                            <option value="70000">70,000</option>
+                            <option value="80000">80,000</option>
+                            <option value="90000">90,000</option>
+                    </select>
+                </div>
+                <div class="three columns">
+                    <label for="maximum">Max value</label>
+                    <select class="u-full-width" id="maximum">
+                            <option value="">All</option>
+                            <option value="20000">20,000</option>
+                            <option value="30000">30,000</option>
+                            <option value="40000">40,000</option>
+                            <option value="50000">50,000</option>
+                            <option value="60000">60,000</option>
+                            <option value="70000">70,000</option>
+                            <option value="80000">80,000</option>
+                            <option value="90000">90,000</option>
+                    </select>
+                </div>
+                <div class="row">
+                    <div class="eight columns">
+                        <label for="transmission">Transmission</label>
+                        <select class="u-full-width" id="transmission">
+                                <option value="">All</option>
+                                <option value="automatic">Automatic</option>
+                                <option value="manual">Manual</option>
+                        </select>
+                    </div>
+                    <div class="four columns">
+                        <label for="color">Color</label>
+                        <select class="u-full-width" id="color">
+                                <option value="">All</option>
+                                <option value="Black">Black</option>
+                                <option value="Blue">Blue</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+
+        <h1>Results</h1>
+        <div id="result"></div>
+    </div>
+
+    <a class="web-site" href="https://www.instagram.com/patriciocanals/" rel="nofollow noopener noreferrer" >PATRICIO PELLEGRINI</a>
+
+    <script src="js/db.js"></script>
+    <script src="js/app.js"></script>
+    
+</body>
+</html>
